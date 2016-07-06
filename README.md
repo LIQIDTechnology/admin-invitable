@@ -9,15 +9,15 @@ To clarify, the common use will be super administrators inviting administrators 
 Add to your Gemfile and install the following gems...
 
 ```ruby
-gem "devise"
+gem 'devise'
 gem 'devise_invitable'
-gem "activeadmin", github: 'gregbell/active_admin'
+gem 'activeadmin', github: 'activeadmin/activeadmin'
 ```
 
 and, of course, add...
 
 ```ruby
-gem "admin_invitable"
+gem 'admin_invitable'
 ```
 
 Then, run the installer:
@@ -84,4 +84,3 @@ Admin Invitable is maintained by [platanus](http://platan.us).
 ## License
 
 Admin Invitable is © 2015 platanus, spa. It is free software and may be redistributed under the terms specified in the LICENSE file.
-

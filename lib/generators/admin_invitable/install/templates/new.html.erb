@@ -1,0 +1,13 @@
+<div id="login">
+  <h2><%= t 'devise.invitations.new.header' %></h2>
+
+  <%= active_admin_form_for(resource, as: resource_name, url: invitation_path(resource_name), html: { method: :post }) do |f|
+    f.inputs do
+      f.input :email
+    end
+    f.actions do
+      f.action :submit, label: t('devise.invitations.new.submit_button')
+    end
+  end
+  %>
+</div>

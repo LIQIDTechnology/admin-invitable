@@ -18,8 +18,8 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "rails", "> 4.1"
-  s.add_dependency "devise", "~> 3.4"
-  s.add_dependency "devise_invitable", "~> 1.4"
+  s.add_dependency "devise", ">= 3.4"
+  s.add_dependency "devise_invitable", "~> 1.6"
   s.add_dependency "activeadmin", "1.0.0.pre2"
 
   s.add_development_dependency "sqlite3"
